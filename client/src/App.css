@@ -1,0 +1,213 @@
+:root {
+    --user-black: #000;
+    --bg-showcase: #E5E5E5;
+}
+
+/*body {
+    font-family: Circular Std, serif;
+}*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.375rem;
+    line-height: 28px;
+    letter-spacing: 0.155em;
+    color: var(--user-black);
+}
+
+.text-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 136.5%;
+}
+
+.text-brief {
+    font-style: normal;
+    font-weight: 900;
+    font-size: clamp(0.6rem, 10vw, 2.5rem);
+    line-height: 134%;
+    letter-spacing: 0.05em;
+}
+
+.text-contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 145.5%;
+    letter-spacing: 0.03em;
+}
+
+.text-intro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    line-height: 136.5%;
+    color: var(--user-black);
+    text-align: center;
+}
+
+.text-about {
+    font-style: normal;
+    font-weight: 450;
+    font-size: clamp(0.4rem, 10vw, 1.5rem);
+    line-height: 136.5%;
+    text-align: center;
+    color: var(--user-black);
+}
+
+.text-works {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 136.5%;
+    color: var(--user-black);
+}
+
+.text-reverse {
+    transform: rotate(-90deg);
+    color: var(--user-black);
+    text-decoration: none !important;
+    font-weight: bold !important;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+}
+
+.text-tab-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 136.5%;
+    /* identical to box height, or 33px */
+    text-align: center;
+    color: grey;
+}
+
+.text-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 136.5%;
+    color: var(--user-black);
+}
+
+.text-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 136.5%;
+    color: var(--user-black);
+}
+
+.text-desc {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 152%;
+    color: var(--user-black);
+}
+
+.text-tab-head-active {
+    color: var(--user-black);
+}
+
+.bg-black {
+    background-color: var(--user-black);
+}
+
+.bg-showcase {
+    background-color: var(--bg-showcase);
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.pt-7 {
+    padding-top: 7rem;
+}
+
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.pt-6 {
+    padding-top: 6rem;
+}
+
+.pb-6 {
+    padding-bottom: 8rem;
+}
+
+.p-6 {
+    padding: 1rem 2.2rem;
+}
+
+.mt-7 {
+    margin-top: 9rem;
+}
+
+.btn-user {
+    border-radius: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 100.9%;
+    text-align: center;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
+    gap: 9rem 1.875rem;
+    justify-items: center;
+}
+
+.tab div {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of divs on hover */
+.tab div:hover {
+    background-color: #ddd !important;
+}
+
+.tab div.active {
+    color: var(--user-black) !important;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.outline-0 {
+    outline: none;
+    border: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .center-text-small-screen {
+        text-align: center !important;
+    }
+
+    .arrow {
+        display: none;
+    }
+}
