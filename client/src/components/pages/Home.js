@@ -46,7 +46,7 @@ const Home = (props) => {
     <main>
       <div className="text-center my-5">
         <img src={User} alt="user" className="mb-5"/>
-        <p className="text-intro">Hello there, my name is <br/> Nifemi Bamgbose. <br/> I’m a Backend Developer.</p>
+        <p className="text-intro">Hello there, my name is <br/> Nifemi Bamgbose. <br/> I’m a Data Scientist.</p>
         <p className="text-about pt-3">I love connecting brands and companies with their customers <br/> through good
           design, I can help you with logo, design.</p>
         <div className="pt-7">
